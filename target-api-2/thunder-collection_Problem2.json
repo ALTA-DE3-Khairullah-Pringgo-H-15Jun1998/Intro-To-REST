@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Problem2",
+    "collectionId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+    "dateExported": "2024-05-21T08:52:56.714Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "problem2_1",
+            "containerId": "",
+            "created": "2024-05-19T18:24:54.333Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "2a69381a-0e9e-406d-9e94-6bdb6b394be5",
+            "colId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_1",
+            "url": "{{base_url}}people/1/",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-05-19T18:24:54.337Z",
+            "modified": "2024-05-19T18:24:54.337Z",
+            "headers": []
+        },
+        {
+            "_id": "e71d6c16-4537-40de-a53e-a749552374ea",
+            "colId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_2",
+            "url": "{{base_url}}films/1/",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-05-19T18:24:54.337Z",
+            "modified": "2024-05-19T18:24:54.337Z",
+            "headers": []
+        },
+        {
+            "_id": "061a1f3e-0c01-4719-98f1-394ff2f75bf3",
+            "colId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_3",
+            "url": "{{base_url}}planets/1/",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-05-19T18:24:54.337Z",
+            "modified": "2024-05-19T18:24:54.337Z",
+            "headers": []
+        },
+        {
+            "_id": "9914f80e-1ebf-4873-ac8e-06b0138657cc",
+            "colId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_4",
+            "url": "{{base_url}}species/3/",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-05-19T18:24:54.337Z",
+            "modified": "2024-05-19T18:24:54.337Z",
+            "headers": []
+        },
+        {
+            "_id": "a08339f6-c911-4c33-95d2-cf4d1bbd11e4",
+            "colId": "c8fb0bce-6b1f-496e-9748-41982318c974",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_5",
+            "url": "{{base_url}}starships/9/",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-05-19T18:24:54.337Z",
+            "modified": "2024-05-19T18:24:54.337Z",
+            "headers": []
+        }
+    ],
+    "ref": "sME2V62qUTKUlac_qzQ8ZEDCY99XBJf3BEaPmqFwdYIhuYNY_cz9jSmq37BZQAKi6eTKlhdjdOcL9o-F3JLz6g"
+}

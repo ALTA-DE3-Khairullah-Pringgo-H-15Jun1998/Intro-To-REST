@@ -1,0 +1,297 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "NyonyaVIVI",
+    "collectionId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+    "dateExported": "2024-05-19T18:21:43.193Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "problem1_1",
+            "containerId": "",
+            "created": "2024-05-19T15:52:38.036Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "problem2_1",
+            "containerId": "",
+            "created": "2024-05-19T16:25:32.687Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "Problem3_1",
+            "containerId": "",
+            "created": "2024-05-19T16:40:30.634Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9fd7b56b-928f-4605-be71-0eb9c58c41b2",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "JawabanProblem1_1",
+            "url": "{{base_url}}top-headlines/sources?apiKey={{api_key}}",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-19T16:03:37.468Z",
+            "modified": "2024-05-19T16:07:59.213Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "apiKey",
+                    "value": "{{api_key}}",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "26cc8b1b-effd-4925-a205-5623f8db8c40",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "JawabanProblem1_2",
+            "url": "{{base_url}}top-headlines?country=us&apiKey={{api_key}}",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-19T16:10:53.123Z",
+            "modified": "2024-05-19T16:12:51.727Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "country",
+                    "value": "us",
+                    "isPath": false
+                },
+                {
+                    "name": "apiKey",
+                    "value": "{{api_key}}",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "893246fd-c6f0-484e-901b-d637385ba78b",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "JawabanProblem1_3",
+            "url": "{{base_url}}everything?q=bitcoin&apiKey={{api_key}}",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-19T16:15:11.165Z",
+            "modified": "2024-05-19T16:16:22.825Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "bitcoin",
+                    "isPath": false
+                },
+                {
+                    "name": "apiKey",
+                    "value": "{{api_key}}",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "5090cbf3-781b-4baf-8572-5f73a064503e",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "JawabanProblem1_4",
+            "url": "{{base_url}}everything?q=apple&from=2024-05-18&to=2024-05-18&sortBy=popularity&apiKey={{api_key}}",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-19T16:17:15.460Z",
+            "modified": "2024-05-19T16:20:01.991Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "apple",
+                    "isPath": false
+                },
+                {
+                    "name": "from",
+                    "value": "2024-05-18",
+                    "isPath": false
+                },
+                {
+                    "name": "to",
+                    "value": "2024-05-18",
+                    "isPath": false
+                },
+                {
+                    "name": "sortBy",
+                    "value": "popularity",
+                    "isPath": false
+                },
+                {
+                    "name": "apiKey",
+                    "value": "{{api_key}}",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "0d1519bc-fb58-49ae-9897-812aab257db6",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "42bc87e8-b45f-4c95-a7d6-c41a25c6e406",
+            "name": "JawabanProblem1_5",
+            "url": "{{base_url}}everything?domains=techcrunch.com,thenextweb.com&apiKey={{api_key}}",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-19T16:17:25.632Z",
+            "modified": "2024-05-19T16:21:20.819Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "domains",
+                    "value": "techcrunch.com,thenextweb.com",
+                    "isPath": false
+                },
+                {
+                    "name": "apiKey",
+                    "value": "{{api_key}}",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "2a69381a-0e9e-406d-9e94-6bdb6b394be5",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_1",
+            "url": "{{base_url}}people/1/",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-05-19T16:29:39.577Z",
+            "modified": "2024-05-19T16:31:08.620Z",
+            "headers": []
+        },
+        {
+            "_id": "e71d6c16-4537-40de-a53e-a749552374ea",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_2",
+            "url": "{{base_url}}films/1/",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-05-19T16:31:27.244Z",
+            "modified": "2024-05-19T16:33:56.226Z",
+            "headers": []
+        },
+        {
+            "_id": "061a1f3e-0c01-4719-98f1-394ff2f75bf3",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_3",
+            "url": "{{base_url}}planets/1/",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-05-19T16:31:42.196Z",
+            "modified": "2024-05-19T16:34:41.523Z",
+            "headers": []
+        },
+        {
+            "_id": "9914f80e-1ebf-4873-ac8e-06b0138657cc",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_4",
+            "url": "{{base_url}}species/3/",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-05-19T16:32:22.750Z",
+            "modified": "2024-05-19T16:35:28.327Z",
+            "headers": []
+        },
+        {
+            "_id": "a08339f6-c911-4c33-95d2-cf4d1bbd11e4",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "c730dfa6-eb25-4072-bd45-1e252ae2e618",
+            "name": "JawabanProblem2_5",
+            "url": "{{base_url}}starships/9/",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-05-19T16:32:35.060Z",
+            "modified": "2024-05-19T16:36:34.962Z",
+            "headers": []
+        },
+        {
+            "_id": "6400bdd8-8cda-47cb-a76e-f9c893d0399e",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_1",
+            "url": "{{base_url}}api/users?page=2",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-05-19T17:18:20.755Z",
+            "modified": "2024-05-19T17:28:44.401Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "2",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a3d50ecf-5770-47b4-a25e-8409206b11bb",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_2",
+            "url": "{{base_url}}api/users/2",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-05-19T17:18:34.061Z",
+            "modified": "2024-05-19T17:29:38.300Z",
+            "headers": []
+        },
+        {
+            "_id": "12c64e1e-5a2f-4ba2-b490-a159433e939e",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_3",
+            "url": "{{base_url}}api/unknown",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-05-19T17:18:47.240Z",
+            "modified": "2024-05-19T17:30:16.873Z",
+            "headers": []
+        },
+        {
+            "_id": "8e9e23d2-5faa-4f7e-97d8-9d1763b31341",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_4",
+            "url": "{{base_url}}api/unknown/2",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-05-19T17:18:59.898Z",
+            "modified": "2024-05-19T17:31:06.667Z",
+            "headers": []
+        },
+        {
+            "_id": "2b683450-d636-4d70-972a-ab872ec24795",
+            "colId": "c87ddb4b-be7d-4fe6-afb0-ff871a1e3747",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_5",
+            "url": "{{base_url}}api/users?delay=3",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-05-19T17:19:17.480Z",
+            "modified": "2024-05-19T17:32:15.860Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "delay",
+                    "value": "3",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "AdbDKx2bRPKg4MNYqcqKyU1mjFAKhCnXyaoiwDu8aFFLBNQpfPvqEpWlIsAXrNgeqkONIhbeQx1dhorUyeC2qg"
+}

@@ -1,0 +1,134 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Problem3",
+    "collectionId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+    "dateExported": "2024-05-21T08:50:25.189Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "Problem3_1",
+            "containerId": "",
+            "created": "2024-05-19T18:25:09.172Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6400bdd8-8cda-47cb-a76e-f9c893d0399e",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_1",
+            "url": "{{base_url}}api/users?page=2",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-05-19T18:25:09.175Z",
+            "modified": "2024-05-19T18:25:09.175Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "2",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a3d50ecf-5770-47b4-a25e-8409206b11bb",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_2",
+            "url": "{{base_url}}api/users/2",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-05-19T18:25:09.175Z",
+            "modified": "2024-05-19T18:25:09.175Z",
+            "headers": []
+        },
+        {
+            "_id": "12c64e1e-5a2f-4ba2-b490-a159433e939e",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_3",
+            "url": "{{base_url}}api/unknown",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-05-19T18:25:09.175Z",
+            "modified": "2024-05-19T18:25:09.175Z",
+            "headers": []
+        },
+        {
+            "_id": "8e9e23d2-5faa-4f7e-97d8-9d1763b31341",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_4",
+            "url": "{{base_url}}api/unknown/2",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-05-19T18:25:09.175Z",
+            "modified": "2024-05-19T18:25:09.175Z",
+            "headers": []
+        },
+        {
+            "_id": "2b683450-d636-4d70-972a-ab872ec24795",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_5",
+            "url": "{{base_url}}api/users?delay=3",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-05-19T18:25:09.175Z",
+            "modified": "2024-05-19T18:25:09.175Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "delay",
+                    "value": "3",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "e053c038-0a69-409b-9e76-07c5bc23477d",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "",
+            "name": "JawabanProblem3_6",
+            "url": "{{base_url}}api/users",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2024-05-21T08:42:29.704Z",
+            "modified": "2024-05-21T08:47:56.050Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\": \"Irul\",\r\n    \"job\": \"Data Engineer\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ee7f0691-539a-40dd-9244-a11f84f0c90a",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "",
+            "name": "JawabanProblem3_7",
+            "url": "{{base_url}}api/users/2",
+            "method": "DELETE",
+            "sortNum": 200000,
+            "created": "2024-05-21T08:48:20.489Z",
+            "modified": "2024-05-21T08:48:44.992Z",
+            "headers": []
+        },
+        {
+            "_id": "cb041e3f-2237-4e15-9a31-423fab0eed81",
+            "colId": "83edce11-fcef-4c3b-befa-aa769a9936ee",
+            "containerId": "a2e8bd30-a93a-4b05-8e88-d20d08195ef1",
+            "name": "JawabanProblem3_8",
+            "url": "{{base_url}}api/users/2",
+            "method": "PUT",
+            "sortNum": 210000,
+            "created": "2024-05-21T08:49:05.644Z",
+            "modified": "2024-05-21T08:50:13.106Z",
+            "headers": []
+        }
+    ],
+    "ref": "8PahPU-ZQ3D5L9MlaT54DjzzV1U-ChhRAVjd8z0tWmMDWvBGwQRhEg8UYjHvANhIsnJHR8i4_YwxkBC53xWJvA"
+}
